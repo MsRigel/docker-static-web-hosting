@@ -11,16 +11,16 @@ This project demonstrates how to host a static website inside a Docker container
 
 ### Step 2: Create DockerFile
  
-  # Use the latest Nginx image  
+  #### Use the latest Nginx image  
         FROM nginx:latest  
 
-  # Copy the contents of the current directory into the Nginx web root  
+  #### Copy the contents of the current directory into the Nginx web root  
        COPY . /usr/share/nginx/html  
 
-  # Expose port 80 for web traffic  
+  #### Expose port 80 for web traffic  
        EXPOSE 80  
 
-   # Run Nginx in the foreground  
+ #### Run Nginx in the foreground  
        CMD ["nginx", "-g", "daemon off;"]
 
 FROM nginx:latest → Uses the latest official Nginx image.
