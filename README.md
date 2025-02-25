@@ -43,7 +43,7 @@ This project demonstrates how to host a static website inside a Docker container
 ##### Names the container "my-container".
 
 ### Step 6: Access the Website
-    Open a browser and visit:
+  ##### Open a browser and visit:
                      http://localhost:8080
 
 
